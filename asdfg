@@ -1,0 +1,62 @@
+while True:
+	print("Merhaba yabancı")
+	print("Seninle bir yola çıkacağız")
+	print("Eğer doğru yola çıkarsan devam edebileceksin")
+	print("Yanlışı seçersen..:)")
+	print("Hadi yola çıkalım")
+	print("Önündeki yola devam etmek istersen '1' yaz")
+	print("Yoldan çıkıp ormana sapmak istersen '2' yaz")
+	mahmut=float(input("Ne yapacaksın:"))
+	if mahmut==1:
+		print("Önündeki yoldan devam ettin")
+		print("Yolda bir araba var")
+		print("Bu riski alacak mısın?")
+		print("Eğer arabaya bineceksen '1' yaz")
+		print("Yola yürüyerek devam edeceksen '2' yaz")
+		mahmut=float(input("Ne yapacaksın:"))
+	elif mahmut==2:
+		print("Yoldan sapıp ormana gittin")
+		print("Garip bir şekilde yolunda hayvan yok")
+		print("İnadına yola devam mı edeceksin?('1' yaz)")
+		print("Yoksa yola mı döneceksin?('2' yaz)")
+		mahmut4=float(input("Ne yapacaksın:"))
+		if mahmut4==1:
+			print("İnadına yola devam ettin")
+			print("Sonra fark ettin ki yolunun boş olması")
+			print("Sadece bir tesadüfmüş")
+			print("Yolda gördüğün ilk hayvanın akşam yemeği oldun")
+			print("Sonuç olarak:ÖLDÜN")
+			break
+		elif mahmut4==2:
+			print("Önündeki yoldan devam ettin")
+		print("Yolda bir araba var")
+		print("Bu riski alacak mısın?")
+		print("Eğer arabaya bineceksen '1' yaz")
+		print("Yola yürüyerek devam edeceksen '2' yaz")
+	mahmut2=float(input("Ne yapacaksın:"))
+	if mahmut2==1:
+		print("Arabaya bindin")
+		print("Ama araba çalışmıyordu")
+		print("Çalıştırmak için çok ses çıkardın ama olmadı")
+		print("Sesi duyan etraftaki hayvanlar seni..")
+		print("Sonuç olarak:")
+		print("ÖLDÜN :)")
+		break
+	elif mahmut2==2:
+		print("Yola yürüyerek devam ettin")
+		print("Orman taraflarında bir şey gördün sanki")
+		print("Oraya gidecek misin?('1' yaz)")
+		print("Yoksa yola devam mı edeceksin?('2' yaz)")
+		mahmut3=float(input("Ne yapacaksın:"))
+		if mahmut3==1:
+			print("Gördüğün şeye gittin")
+			print("Ahh,yanılmışsın")
+			print("Sadece havadaki sisi bir şekle benzettin")
+			print("Yolunu kaybettin ve hayvanlar tarafından :)")
+			print("Sonuç olarak:ÖLDÜN")
+			break
+		elif mahmut3==2:
+			print("Yola devam ettin")
+			print("Yolu boşuna yapmamışlar")
+			print("Yolun sonunda bir köy var")
+			print("Sonuç olarak:KURTULDUN")
